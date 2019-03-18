@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+a {text-decoration: none !important; color: #fff}
+body {
+	margin: 0;
+	font:10px Arial, Helvetica, sans-serif;
+	background-color:transparent;
+	text-shadow:1px 1px 1px #000;
+}
+div{float: left;}
+
+.widget {
+	width:230px;
+	height:42px;
+	max-height:44px;	
+	border-radius: 5px 0 0 5px;
+	border: none !important;
+}
+
+.titulo {
+	width:99%;
+}
+
+.city {	
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+	padding-left:8px;
+	border: none !important;
+	text-transform: uppercase;
+}
+
+.data {	
+	text-align:center;
+	font-weight:bold;
+	float: right;
+	border: none !important;
+}
+
+
+
+
+
+
+.icone {
+	width: 45px;
+	margin: -4px 5px 2px 5px;
+}
+
+.top {width:310px;clear:both;padding:0;height:13px;}
+
+
+.day{width:140px;}
+
+.desc {
+	font-weight:bold;
+	width: 105px;
+	padding: 0 !important;
+	text-align: center;
+}
+
+.temperature {width: 70px; text-align:center;	
+}
+
+.temperature .max {
+	margin-top: 0;
+	font-size:25px;
+	color: #F5B836;
+	border: none !important;
+}
+
+.temperature .min {
+	margin-top: 10px;
+	font-size: 17px;
+	color:#87B3F2;
+	border: none !important;
+}
+
+.assinatura {width:75px; text-align: center; border-radius: 0 5px 5px 0; height: 42px; padding-right:5px; background-color:#000}
+
+.assinatura #cptec {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#google{ height: 22px;}
+
+.clearb {
+	clear: both;
+}
